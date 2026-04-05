@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url("/resources/bg.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ font-family: 'Poppins', sans-serif;
+}
+/* linear-gradient(rgb(200, 0, 254), rgb(255, 72, 2)) */
+
+.border-card {
+ margin-top: 75px;
+ height: 603px;
+ width: 400px;
+ border-radius: 30px;
+ background: linear-gradient(rgb(200, 0, 254), rgb(255, 72, 2));
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 5px
+}
+
+.card {
+ border-radius: 30px;
+ background: linear-gradient(rgb(83, 11, 90), rgb(102, 30, 10));
+ width: 400px;
+ height: 600px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.banner {
+ width: 400px;
+ border-radius: 30px 30px 0 0;
+
+}
+
+.profile-box {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ overflow: hidden;
+ border: 5px;
+ background: linear-gradient(rgb(86, 14, 81), rgb(89, 17, 67));
+ margin-top: -65px;
+ margin-right: 240px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.profile-box img {
+ width: 90%;
+ height: 90%;
+ border-radius: 50%;
+}
+
+/* 89, 17, 67 86, 14, 81 */
+
+.profile-body {
+ opacity: 100%;
+ width: 48vh;
+ height: 52.5vh;
+ border-radius: 30px;
+ margin-bottom: 10px;
+}
+
+.name {
+ margin-top: -5px;
+ margin-left: 25px;
+ margin-right: 220px;
+ font-size: 1.75rem;
+ color: white;
+}
+
+hr {
+ margin-top: -20px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.card-titles {
+ color: white;
+ margin-left: 25px;
+ margin-top: 10px;
+ font-size: 1rem;
+ font-weight: bold;
+}
+
+.card-text {
+ color: white;
+ margin-left: 25px;
+ margin-top: -10px;
+ font-size: 0.9rem;
+}
+
+/* status bubble stuff or something */
+
+.bubble1 {
+ background-color: rgb(49, 41, 56);
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ margin-top: -75px;
+ margin-left : 25px;
+}
+
+.bubble2 {
+ background-color: rgb(49, 41, 56);
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ margin-top: 5px;
+ margin-left : 37.5px;
+}
+
+.text-bubble {
+ background-color: rgb(49, 41, 56);
+ margin-top: -60px;
+ margin-left : 25px;
+ width: 150px;
+ height: 50px;
+ border-radius: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.bubble-text {
+ color:white;
+ font-size: 15px;
+ margin-left: 15px;
+ margin-right: 15px;
+}
+
+a {
+ color: dodgerblue;
+}
+
+#activity-title {
+    margin-top: -10px;
+}
+
+.activity-box {
+    background-color: black;
+    background: rgb(0, 0, 0, 0.5);
+    width: 350px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.activity-image {
+    opacity: 100%;
+    margin-left: 15px;
+    margin-top: 12.5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 5px;
+}
+
+.activity-info {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.act-name {
+    font-size: 17.5px;
+}
+
+.details {
+    font-size: 15px;
+}
+.state {
+    font-size: 15px;
+}
+
+.time {
+    font-size: 12.5px;
+}
+
+.badges-container {
+    margin-left: 225px;
+    margin-top: -67.5px;
+    margin-bottom: 30px;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between
+}
+
+.badges {
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
